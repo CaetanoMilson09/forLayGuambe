@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    overflow: hidden;
+
+    background: #000;
+
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: block;
+}
+
+.texto {
+    position: fixed;
+
+    left: 50%;
+    bottom: 30px;
+
+    transform: translateX(-50%);
+
+    text-align: center;
+
+    color: white;
+
+    pointer-events: none;
+
+    text-shadow:
+        0 0 10px #008cff,
+        0 0 20px #008cff,
+        0 0 40px #0066ff;
+}
+
+.texto h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.texto p {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
